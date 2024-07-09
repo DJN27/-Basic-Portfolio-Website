@@ -1,0 +1,517 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Styles */
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url('images/bg.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6b6b;
+}
+
+nav .btn {
+    padding: 10px 25px;
+    background: #ff6b6b;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav .btn:hover {
+    background: white;
+    color: #ff6b6b;
+}
+
+/* Hero Section Styles */
+.hero .content {
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.hero h4 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.hero h1 {
+    font-size: 70px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.hero h1 span {
+    color: #ff6b6b;
+}
+
+.hero h3 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.newslatter {
+    display: inline-block;
+}
+
+.newslatter form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newslatter input[type="email"] {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.newslatter input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background: #ff6b6b;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.newslatter input[type="submit"]:hover {
+    background: white;
+    color: #ff6b6b;
+}
+
+/* About Section Styles */
+.about {
+    width: 100%;
+    padding: 100px 0;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+.about .main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about .about-text {
+    width: 50%;
+    padding: 20px;
+}
+
+.about h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.about h5 {
+    font-size: 24px;
+    color: #ff6b6b;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.about button {
+    padding: 10px 25px;
+    border: none;
+    background: #ff6b6b;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.about button:hover {
+    background: white;
+    color: #ff6b6b;
+}
+
+/* Services Section Styles */
+.services {
+    width: 100%;
+    padding: 100px 0;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+.services .title {
+    margin-bottom: 50px;
+}
+
+.services h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.services .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.services .card {
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.services .card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.services .card i {
+    font-size: 48px;
+    color: #ff6b6b;
+    margin: 20px 0;
+}
+
+.services .card h5 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.services .card .pra {
+    padding: 0 20px 20px;
+}
+
+.services .card .pra p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.services .card .button {
+    padding: 10px 20px;
+    background: #ff6b6b;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.services .card .button:hover {
+    background: white;
+    color: #ff6b6b;
+}
+
+/* Portfolio Section Styles */
+.portfolio {
+    width: 100%;
+    padding: 100px 0;
+    background: white;
+    text-align: center;
+}
+
+.portfolio .title {
+    margin-bottom: 50px;
+}
+
+.portfolio h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.portfolio .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.portfolio .card {
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.portfolio .card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio .card .imgBx {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.portfolio .card .imgBx img {
+    width: 100%;
+    height: auto;
+    transition: 0.3s;
+}
+
+.portfolio .card:hover .imgBx img {
+    transform: scale(1.1);
+}
+
+.portfolio .card .text {
+    padding: 20px;
+}
+
+.portfolio .card .text h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+/* Contact Section Styles */
+.contact {
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.contact .title h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.contact .box {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact .form {
+    width: 100%;
+    padding: 20px;
+    background: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.contact .form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact .formBox {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact .formBox .row50 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact .formBox .row50 .inputBox {
+    width: 45%;
+}
+
+.contact .formBox .row100 {
+    width: 100%;
+}
+
+.contact .formBox .inputBox {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.contact .formBox .inputBox span {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact .formBox .inputBox input,
+.contact .formBox .inputBox textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact .formBox .inputBox textarea {
+    resize: none;
+    height: 120px;
+}
+
+.contact .formBox .inputBox input[type="submit"] {
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact .formBox .inputBox input[type="submit"]:hover {
+    background: white;
+    color: #ff6b6b;
+}
+
+.contact .info {
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.contact .info h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.contact .info .infoBox {
+    margin-bottom: 20px;
+}
+
+.contact .info .infoBox div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact .info .infoBox div span {
+    font-size: 20px;
+    color: #ff6b6b;
+    margin-right: 10px;
+}
+
+.contact .info .infoBox div p,
+.contact .info .infoBox div a {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+.contact .info .sci {
+    display: flex;
+    gap: 10px;
+}
+
+.contact .info .sci li {
+    list-style: none;
+}
+
+.contact .info .sci li a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #ff6b6b;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.contact .info .sci li a:hover {
+    background: white;
+    color: #ff6b6b;
+}
+
+/* Footer Styles */
+footer {
+    width: 100%;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+}
